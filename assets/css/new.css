@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+  }
+
+  h3 {
+    color: cornsilk;
+
+  }
+ 
+
+  .comment {
+    background-color:rgb(169, 185, 231);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: color .1s;
+  }
+  .login, .dashboard, .anansi, .logout {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 10px;
+  }
+  .login-link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  button {
+    background-color: #225ca3;
+    border: 0;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #3486eb;
+  }
+  
+  .post-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border: 1px solid #3486eb;
+  }
+  
+  textarea {
+    min-width: 40%;
+    min-height: 100px;
+  }
+  
+  form > div {
+    margin-bottom: 2%;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+    background-color: #d41414;
+    background-image: linear-gradient(to bottom, rgb(20, 3, 133), rgb(139, 158, 245));
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    border-bottom: 3px solid #ccc;
+    background-color:rgb(163, 193, 233);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+ label {
+    font-weight: bold;
+    font-size: larger;
+ 
+  }
+  
+  header h1 {
+    font-size: 1em;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2% 4%;
+  }
+  
+  .btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #225ca3;
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+  }
+  
+  .btn-no-style:hover {
+    background: none;
+    color: #3486eb;
+  }
+  
+  .delete-post-btn {
+    background-color: #d41414;
+  }
+  
+  .delete-post-btn:hover {
+    background-color: #ff643d;
+  }
+  
+  .post {
+    margin-bottom: 2%;
+    line-height: 150%;
+  }
+  
+  .post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7d7d7d;
+  }
+  
+  .edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+  }
+  
+  .comment-form {
+    margin-bottom: 5%;
+  }
+  
+  .comment {
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  
+  .comment:nth-child(odd) {
+    background-color: #fff5eb;
+  }
+  
+  .comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+  }
+  
+  .new-post-form input {
+    width: 300px;
+  }
+  
+  .edit-post-form {
+    margin-bottom: 5%;
+  }
+  
+  footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+#create-new-post {
+    width: 15%;
+}
+
+.sign-in-link,
+.login-link {
+    color: #60a37a;
+}
+
+.form-heading h1,
+.form-heading h2 {
+    color: #afbfe2;
+}
+
+.login-form,
+.signup-form,
+.post-content,
+.post-title-section {
+    padding: 10px 10px 0px 0px;
+}
+
+.entry-field,
+.login-signup-btn,
+.btn,
+#post-title {
+    width: 100%;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+  
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #d84242;
+    height: 100%;
+  }
+  
+/* Set black background color, white text and some padding */
+.push{
+    /*background-color: #555;
+    color: white;*/
+    padding: 15px;
+    height: 155px; 
+  }
+footer {
+ background-color: #555;
+    color: white;
+    padding: 3px;
+    height: 80px; 
+
+}
+  
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+.full button span {
+  background-color: limegreen;
+  border-radius: 32px;
+  color: black;
+}
+.partially button span {
+  background-color: orange;
+  border-radius: 32px;
+  color: black;
+}
