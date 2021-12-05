@@ -1,6 +1,6 @@
 ## Professional Portfolio
 ## Description
-This is my professionl portfolio. This application allows users to view the 'about me', 'my work', and my 'contact' pages. 
+This is my professional  portfolio. This application allows users to view the 'about me', 'my work', and my 'contact' pages. 
 ## Built With  
 	* HTML
     * CSS
