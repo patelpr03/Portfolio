@@ -4,7 +4,7 @@
 	* HTML
     * CSS
 # Screenshot :     
-![Portfolio](assets\images\Protfolio.gif)
+![Portfolio](assets/images/Protfolio.gif)
 
 # Github:
 https://github.com/patelpr03/Portfolio
